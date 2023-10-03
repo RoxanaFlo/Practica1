@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+* {    
+  box-sizing: border-box;
+}
+ 
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+    font-size: 90%;
+    background-color: aqua;
+    margin: 0;
+  }
+
+img { 
+    width: 50%;
+}
+
+nav { 
+     width: 100%;
+     border-top: 2px solid rgb(red, green, blue);
+
+}
+
+main { 
+      margin: 0;
+      width: 90%;
+
+}
+
+h1 { font-size: 4em;
+}
+
+h1, strong {
+             font-weight: 700;
+}
+
+h1, strong, nav h1,footer h1 { font-family:'Coiny', cursive;
+                              font-size: 7.33 em;
+}
+
+nav h1, footer h1 { font-size: 3.5 em;
+                    margin: 0;
+
+}
+
+footer { width: 100%;
+         background-color: rgb(red, green, blue);
+}
+
+ol { font-size: 2em;
+     font-weight: 400;
+     list-style-position: inside;
+}
+
+label, textarea {display: block;}
+
+form span {color: #c1272d;}
+
+h2 { font-weight: 400;
+     font-size: 1.66em;
+     background-color: rgb(red, green, blue);
+     
+}
+
+h3 { font-weight: 900;
+     font-size: 1.66em;
+     background-color: rgb(red, green, blue);
+}
+p { font-size: 1.75em;
+
+}
+
+a { color: black;
+    text-decoration: none;
+  }
+
+  h4 { font-size: 3.41em;
+       text-transform: uppercase;
+
+  }
